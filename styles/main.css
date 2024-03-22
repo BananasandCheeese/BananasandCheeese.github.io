@@ -17,3 +17,17 @@ body {
     background-color: rgb(13, 158, 50);
     color:white
   }
+
+  ul {
+    color: whitesmoke;
+    border: 5px solid black;
+  }
+
+  ol {
+    color:whitesmoke;
+    border: 5px solid black;
+  }
+
+img {
+    border: 7px solid white
+}
