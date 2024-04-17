@@ -3,7 +3,7 @@
     background-color:gray;
     box-shadow: 10px 5px 5px black;
     padding: 20px;
-    transition:0.5;
+    transition:0.5s;
 }
 
 /* Task 2: Animated Navigation Menu */
@@ -21,6 +21,14 @@
     color: #00aaff;
     background-color: white;
 }
+.animated-nav-menu a:hover {
+    text-decoration: none;
+    border-radius: 10%;
+    padding: 4px;
+    color: white;
+    background-color: #00aaff;
+    transition: 0.5s;
+}
 
 /* Task 3: Button Press Animation */
 .button-press-animation button {
@@ -29,6 +37,11 @@
     background-color: #00aaff;
     color: white;
     cursor: pointer;
+}
+
+.button-press-animation button:active { 
+box-shadow: 5px 5px 5px grey;
+transition: 0.1s;
 }
 
 /* Task 4: Simple Loading Spinner */
@@ -51,4 +64,13 @@
     height: 100px;
     object-fit: cover;
     opacity: 0.5;
+}
+
+.hover-fading-gallery {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    opacity: 1;
+    box-shadow: 10px 5px 5px black;
+
 }
