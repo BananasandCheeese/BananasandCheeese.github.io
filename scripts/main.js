@@ -35,3 +35,20 @@ for (let n = 1; n<=10; n+=1){
      console.log(iFactorial);
 }
 
+console.log("Task 6")
+let arr = [3, 1, 4, 1, 5];
+for (let i = 0; i < arr.length; i++){
+    console.log(arr[i]);
+}
+
+console.log("Task 7")
+for (let i = 0; i < arr.length; i++){
+    console.log(arr.at());
+}
+console.log("Task 8")
+for (let ti = 1; i <= 10; i++){
+    console.log(i*i*i)
+}
+console.log("Task 9")
+
+console.log("Task 10")
