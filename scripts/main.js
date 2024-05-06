@@ -1,7 +1,8 @@
+
 //use let instead of var
 console.log("Task 1")
 for (let i=1; i<=10; i++){
-    console.log(i*i)
+    console.log(i*i);
 }
 
 
@@ -19,7 +20,7 @@ for (let i=0; i<=50; i+=2){
 
 
 console.log("Task 4")
-let sum = 0
+let sum = 0;
 for (let i = 1; i <= 100; i += 1){
     sum += i;
 }
@@ -43,12 +44,25 @@ for (let i = 0; i < arr.length; i++){
 
 console.log("Task 7")
 for (let i = 0; i < arr.length; i++){
-    console.log(arr.at());
+    console.log(arr.at(-1 * i -1));
 }
 console.log("Task 8")
-for (let ti = 1; i <= 10; i++){
-    console.log(i*i*i)
-}
+let cubic = [];
+for (let i = 1; i <= 10; i++){
+    cubic.push(i*i*i);
+} 
+console.log(cubic);
+
 console.log("Task 9")
+let fibonacci = [0, 1];
+for (let i = 0; i <= 10; i++){
+    fibonacci.push(fibonacci.at(-1)+fibonacci.at(-2));
+}
+console.log(fibonacci);
 
 console.log("Task 10")
+let cheese = [];
+for (let i = 0; i < arr.length; i++){
+    cheese.push(arr.at(-1*i-1));
+}
+console.log(cheese);
