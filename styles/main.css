@@ -14,19 +14,31 @@ p {
 }
 
 body {
-    background-color: #2d6b36;
+    background-color: #607B94;
     color:white
   }
 
   ul {
     color: whitesmoke;
-    border: 5px solid black;
-    box-shadow: 10px, 5px, 5px, whitesmoke;
+    border: 2px solid black;
+    
   }
-
+ul:hover {
+  color : whitesmoke;
+  background-color: #86a6c4;
+  box-shadow: 10px 5px 5px whitesmoke;
+  transition: 0.5s;
+}
   ol {
     color:whitesmoke;
-    border: 5px solid black;
+    border:2px solid black;
+  }
+
+  ol:hover {
+    color : whitesmoke;
+    background-color: #86a6c4;
+    box-shadow: 10px 5px 5px whitesmoke;
+    transition: 0.5s;
   }
 
 img {
