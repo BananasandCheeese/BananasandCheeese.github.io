@@ -1,0 +1,33 @@
+.photos {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+.photos img {
+    border: 1px solid white;
+    width: 15%;
+    object-fit: cover;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.photos img:hover{
+    transform: translateY(-10px) scale(1.25);
+    opacity: 1;
+    box-shadow: 5px 5px 5px white;
+}
+
+.hiddenportal a {
+ color:darkseagreen; 
+ transition: 0.5s; 
+}
+
+.hiddenportal a:hover {
+    color: aliceblue; 
+}
+
+body {
+    background-color:darkseagreen;
+    color:aliceblue;
+}
