@@ -1,6 +1,16 @@
 p {
     color: black;
 }     
+
+a {
+  color:blue;
+  transition: 0.5s;
+}
+
+a:hover {
+  color:darkblue;
+  font-weight: bold;
+}
 #hi {
   font-size: xx-large;
 }

@@ -18,16 +18,26 @@
     box-shadow: 5px 5px 5px white;
 }
 
-.hiddenportal a {
- color:darkseagreen; 
- transition: 0.5s; 
+ a {
+    color:darkseagreen; 
+    transition: 0.5s; 
 }
 
-.hiddenportal a:hover {
+ a:hover {
     color: aliceblue; 
 }
 
 body {
     background-color:darkseagreen;
     color:aliceblue;
+}
+
+
+.fake u {
+    position: relative;
+    color: blue;
+}
+
+.fake u:hover {
+    top: 100px;
 }
