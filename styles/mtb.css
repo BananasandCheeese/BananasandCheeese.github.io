@@ -41,3 +41,23 @@ body {
 .fake u:hover {
     top: 100px;
 }
+
+.right-button {
+    padding: 7.5px 16px; 
+    border-color: rgb(255, 255, 255);
+    border-radius:10px;
+    box-shadow: 10px 5px 5px gray;
+    transition-duration: 1s;
+    position:absolute;
+    bottom: 5%;
+    right: 2%;
+    border-width: 2px;
+    transition-duration: 0.8s;
+    background-color: ;
+    color: forestgreen;
+}
+
+.right-button:hover {
+    background-color:rgb(143, 143, 143);
+    box-shadow: 10px 5px 5px black;
+}

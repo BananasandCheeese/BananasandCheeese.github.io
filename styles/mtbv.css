@@ -9,3 +9,15 @@ body {
     align-content: flex-end;
     flex-wrap: wrap;
 }
+
+video {
+    width: 20%;
+    border: 3px solid white;
+}
+
+.left-button {
+    border-radius: 3px;
+    background-color: gainsboro;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
