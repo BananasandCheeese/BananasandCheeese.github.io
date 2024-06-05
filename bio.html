@@ -11,6 +11,7 @@
 <body>
    <h1>Life of Steph Curry</h1>
 
+   <button class="theme-button" onclick="switchTheme(true)">Switch Theme</button>
     <p>Stephen Curry, the name synonymous with shooting excellence, has etched his legacy in the annals of basketball history. His unparalleled shooting prowess, captivating style of play, and humble demeanor have elevated him to the status of a global icon. This biography delves into the life, career, and influence of the one they call the "Baby-Faced Assassin."</p>
 
 
@@ -48,5 +49,19 @@
      <a href="/index.html">
         <button class="top-button">Back</button>
        </a>
+       <script>
+       function switchTheme() {
+        
+       
+        if (document.body.style.backgroundColor == "rgb(0, 132, 255)"){
+            document.body.style.backgroundColor = "gold";
+            document.body.style.color = "rgb(0, 132, 255)";
+        } 
+        else {
+            document.body.style.backgroundColor = "rgb(0, 132, 255)";
+            document.body.style.color = "gold";
+        }
+       }
+       </script>
 </body>
 </html>

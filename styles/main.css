@@ -73,7 +73,6 @@ img {
   border-radius:10px;
   box-shadow: 10px 5px 5px gray;
   transition-duration: 1s;
-  position:absolute;
   display: flex;
   justify-content: center;
   height: fit-content;
@@ -95,9 +94,3 @@ img {
   rotate: 360deg;
 }
 
-element.style {
-  display: flex;
-  justify-content: center;
-  height: fit-content;
-  min-height: 45px;
-}
