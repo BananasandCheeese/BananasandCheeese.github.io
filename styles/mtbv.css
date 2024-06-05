@@ -16,8 +16,21 @@ video {
 }
 
 .left-button {
-    border-radius: 3px;
-    background-color: gainsboro;
-    justify-content: flex-end;
-    align-items: flex-start;
+    padding: 13px 24px; 
+    border-color: rgb(255, 255, 255);
+    border-radius:10px;
+    box-shadow: 10px 5px 5px gray;
+    transition-duration: 1s;
+    position:absolute;
+    bottom: 5%;
+    left: 2%;
+    border-width: 2px;
+    transition-duration: 0.8s;
+    background-color: ;
+    color: forestgreen;
+}
+
+.left-button:hover {
+    background-color:rgb(143, 143, 143);
+    box-shadow: 10px 5px 5px black;
 }

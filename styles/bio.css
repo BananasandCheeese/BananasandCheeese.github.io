@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(0, 132, 255);
+    color: gold;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+a:hover {
+    color: gold;
+    transition: 1s;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: cursive;
+    font-weight: bold;
+    animation-name: slidein;
+    animation-duration: 3s;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+h2 {
+    font-family: cursive;
+    font-weight: bold;
+}
+
+p {
+    font-family: cursive;
+}
+
+.top-button {
+    padding: 13px 24px; 
+    border-color: rgb(255, 255, 255);
+    border-radius:10px;
+    transition-duration: 1s;
+    position:absolute;
+    top: 2%;
+    right: 2%;
+    border-width: 2px;
+    transition-duration: 0.8s;
+    background-color: gold;
+    color: rgb(0, 132, 255);
+}
+
+img {
+    width: 20%;
+    border:3px solid gold;
+}
+
+img:hover {
+    rotate: 360deg;
+}
