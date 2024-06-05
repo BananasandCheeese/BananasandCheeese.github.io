@@ -58,7 +58,3 @@ img {
     width: 20%;
     border:3px solid gold;
 }
-
-img:hover {
-    rotate: 360deg;
-}
