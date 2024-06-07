@@ -91,6 +91,14 @@ img {
 }
 
 .Spinner:hover {
-  rotate: 360deg;
+ 
 }
 
+@keyframes rotate {
+      from {
+        transform: 0deg;
+      }
+      to {
+        transform: 360deg;
+      }
+}
