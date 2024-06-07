@@ -74,3 +74,22 @@ img {
     color:rgb(0, 132, 255);
   }
   
+#spinninghead{
+    width: 35%;
+    animation: spin 4s infinite linear;
+    border-width: 0;
+}
+
+  @keyframes spin {
+    from {
+      transform: (0deg);
+    }
+    to {
+      transform: (360deg);
+    }
+}
+
+span.curry {
+    font-weight: bold;
+}
+
