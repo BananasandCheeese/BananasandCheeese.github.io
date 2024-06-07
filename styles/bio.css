@@ -76,16 +76,16 @@ img {
   
 #spinninghead{
     width: 35%;
-    animation: spin 4s infinite linear;
+    animation: spin 2s infinite linear;
     border-width: 0;
 }
 
   @keyframes spin {
     from {
-      transform: (0deg);
+      transform: rotate(0deg);
     }
     to {
-      transform: (360deg);
+      transform: rotate(360deg);
     }
 }
 
